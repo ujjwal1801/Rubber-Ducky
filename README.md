@@ -1,17 +1,18 @@
-#Disclaimer
+Disclaimer
 -----------
 
 This script has been shared for educational purposes. Any misuse of the script to harm any individual or system shall not make me responsible for the damage caused.
 
-#USB Rubber Ducky
+USB Rubber Ducky
 -----------------
 The USB Rubber Ducky is a keystroke injection tool disguised as a generic flash drive. Computers recognize it as a regular keyboard and accept pre-programmed keystroke payloads at over 1000 words per minute.gygyg
 Payloads are crafted using a simple scripting language and can be used to drop reverse shells, inject binaries, brute force pin codes, and many other automated functions for the penetration tester and systems administrator.
 
-#Ducky Script
+Ducky Script
 -------------
 Ducky Script is the language of the USB Rubber Ducky. Writing scripts for a rubber ducky can be done from any common ascii text editor such as Notepad, vi, emacs, nano, gedit, kedit, TextEdit, etc.
-##This Script
+
+This Script
 --------------
 This script uses a simple notepad bomb, which uses all the resources of the system, thus freezing it and rendering it unusable. The script places the notepad bomb in the startup folder, thus executing everytime the user boots up the account.
 
